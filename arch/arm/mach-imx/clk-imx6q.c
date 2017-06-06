@@ -170,7 +170,7 @@ static int ldb_di_sel_by_clock_id(int clock_id)
 		return 3;
 	case IMX6QDL_CLK_PLL3_USB_OTG:
 		return 4;
-	default:
+//	default:
 		return -ENOENT;
 	}
 }
